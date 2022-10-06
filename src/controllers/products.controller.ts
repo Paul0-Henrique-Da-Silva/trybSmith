@@ -8,6 +8,11 @@ export default class ControllerProduct {
     this.service = new ServiceProducts();
   }
 
+  public getAll = async (request: Request, response: Response) => {
+    const productData = await this.service.getAll();
+    return response.status(200).json(productData);
+  };
+
   public create = async (request: Request, response: Response) => {
     try {
       const { name, amount } = request.body;
