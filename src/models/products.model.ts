@@ -1,5 +1,5 @@
 import { Pool, ResultSetHeader } from 'mysql2/promise';
-import { IProducts } from '../interfaces/products.interfaces'
+import { IProducts } from '../interfaces/products.interfaces';
 import conn from './conn';
 
 export default class ModalProduct {
