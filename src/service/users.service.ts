@@ -1,5 +1,6 @@
 import { IUsers } from '../interfaces/users.interfaces';
 import ModalUser from '../models/users.model';
+import createdtoken = require('../jwt/jwt');
 
 export default class ServiceUsers {
   private model: ModalUser;
@@ -8,8 +9,9 @@ export default class ServiceUsers {
     this.model = new ModalUser();
   }
 
-  public create = async (users: IUsers): Promise<IUsers> => {
-    const created = await this.model.create(users);
-    return created;
+  public create = async (user: IUsers): Promise<string> => {
+    await this.model.create(user);
+    const token = createdtoken(user);
+    return token;
   };
 }
