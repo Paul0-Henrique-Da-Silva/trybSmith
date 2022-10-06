@@ -8,6 +8,11 @@ export default class ServiceProducts {
     this.model = new ModalProduct();
   }
 
+  public getAll = async (): Promise<IProducts[]> => {
+    const data: IProducts[] = await this.model.getAll();
+    return data;
+  };
+
   public create = async (products: IProducts): Promise<IProducts> => {
     const created = await this.model.create(products);
     return created;
