@@ -16,4 +16,12 @@ export default class ModalUser {
     const values = [username, classe, level, password];
     await this.connection.execute<ResultSetHeader>(query, values);
   };
+ 
+  public getLogin = async ({ username, password }: IUsers): Promise<IUsers[]> => {
+    const [results] = await this.connection.execute(
+      'SELECT * FROM Trybesmith.Users WHERE username = ? AND password = ?',
+      [username, password],
+    );
+    return results as IUsers[];
+  };
 }
