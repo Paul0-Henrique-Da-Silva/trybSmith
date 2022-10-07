@@ -7,7 +7,7 @@ const jwtConfig: jwt.SignOptions = {
 };
 
 const createdtoken = (user: IUsers): string => {
-  const token = jwt.sign({ data: { username: user.username, id: user.id },
+  const token = jwt.sign({ data: { username: user.username },
   }, process.env.JWT_SECRET as Secret, jwtConfig);
 
   return token;
