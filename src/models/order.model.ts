@@ -1,4 +1,4 @@
-import { Pool, ResultSetHeader } from 'mysql2/promise';
+import { Pool } from 'mysql2/promise';
 import { IOrder } from '../interfaces/order.interfaces';
 import connection from './connection';
 
