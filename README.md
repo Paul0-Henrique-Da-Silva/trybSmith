@@ -1,10 +1,21 @@
-# 🚧 README em construção 🚧
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto.
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-⚠️ IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+## TrybSmith
+
+ - Suba os container!
+ 
+  No diretório raiz , execute comando para subir os containers.
+ 
+ ` user@terminal$ docker-compose up -d `
+ 
+ ⚠ Atenção ⚠ 
+ Caso não tiver o [Docker](https://docs.docker.com/engine/install/) e [Compose]( https://docs.docker.com/compose/install/ ) instalado ! 
+ 
+ - Após ao subir containers
+ 
+  `user@terminal$ docker exec -it trybesmith bash`
+  
+  Instale as dependências
+  
+  `user@terminal$ npm install`
+  
+  
+  
