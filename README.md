@@ -27,6 +27,8 @@
   
   Acessando as rotas
   
-  - [/product](get-trybesmith17-48-14.png)
+  - GET [/products](get-trybesmith17-48-14.png)
+  - POST [/products](post-trybSmith16-59-17.png)
+  - GET [/orders](get-order2022-10-07 00-29-06.png)
   
   
