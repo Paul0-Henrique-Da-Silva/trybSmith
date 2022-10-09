@@ -1,6 +1,6 @@
 ## TrybSmith
 
- - Suba os container!
+###  Suba os container!  :whale:
  
   No diretório raiz , execute comando para subir os containers.
  
@@ -9,7 +9,7 @@
  ⚠ Atenção ⚠ 
  Caso não tiver o [Docker](https://docs.docker.com/engine/install/) e [Compose]( https://docs.docker.com/compose/install/ ) instalado ! 
  
- - Após ao subir containers
+###  Após ao subir containers...
  
   `user@terminal$ docker exec -it trybesmith bash`
   
@@ -17,5 +17,8 @@
   
   `user@terminal$ npm install`
   
+  Inicialize 
+  
+  ` user@terminal$ npm start`
   
   
