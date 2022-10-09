@@ -9,6 +9,8 @@
  ⚠ Atenção ⚠ 
  Caso não tiver o [Docker](https://docs.docker.com/engine/install/) e [Compose]( https://docs.docker.com/compose/install/ ) instalado ! 
  
+ <br/>
+ 
 ###  Após ao subir containers...
  
   `user@terminal$ docker exec -it trybesmith bash`
@@ -20,5 +22,11 @@
   Inicialize 
   
   ` user@terminal$ npm start`
+  
+  <br/>
+  
+  Acessando as rotas
+  
+  - [/product](get-trybesmith17-48-14.png)
   
   
