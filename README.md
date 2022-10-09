@@ -29,6 +29,6 @@
   
   - GET [/products](get-trybesmith17-48-14.png)
   - POST [/products](post-trybSmith16-59-17.png)
-  - GET [/orders](get-order2022-10-07 00-29-06.png)
+  - GET [/orders](https://github.com/Paul0-Henrique-Da-Silva/trybSmith/blob/main/get-order2022-10-07%2000-29-06.png)
   
   
