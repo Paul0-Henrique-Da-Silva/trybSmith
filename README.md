@@ -1,5 +1,16 @@
 ## TrybSmith
 
+Crie suas variaveis de ambiente antes de começar !
+
+No diretrio raiz crie um arquivo com formato `.env` e ensira configurações como no exemplo abaixo.
+
+```javascript
+MYSQL_USER=root
+MYSQL_PASSWORD=password
+MYSQL_HOST=localhost
+JWT_SECRET=secret
+```
+
 ###  Suba os container!  :whale:
  
   No diretório raiz , execute comando para subir os containers.
