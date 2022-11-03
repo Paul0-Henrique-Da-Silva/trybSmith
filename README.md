@@ -1,6 +1,6 @@
 ## TrybSmith
 
-Crie suas variaveis de ambiente antes de começar !
+##### Crie suas variaveis de ambiente antes de começar !
 
 No diretrio raiz crie um arquivo com formato `.env` e ensira configurações como no exemplo abaixo.
 
